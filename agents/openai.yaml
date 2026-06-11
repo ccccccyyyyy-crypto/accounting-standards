@@ -1,0 +1,7 @@
+interface:
+  display_name: "Accounting Standards"
+  short_description: "判断业务核算与凭证处理是否正确"
+  default_prompt: "Use $accounting-standards to判断这笔业务该怎么核算，并指出现有凭证是否正确。"
+
+policy:
+  allow_implicit_invocation: true
